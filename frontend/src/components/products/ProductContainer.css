@@ -1,0 +1,175 @@
+.product_container{
+    width:100%;
+    height:40rem;
+    background-color: #FFA500;
+    margin:4rem 0;
+    margin-bottom: 0;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding:1rem;
+    transition: all ease 0.1s;
+}
+@media only screen and (max-width:739px){
+    .product_container{
+        width:100%;
+        height:60rem;
+        background-color: #FFA500;
+        margin:4rem 0;
+        margin-bottom: 0;
+        border-radius: 2rem;
+        overflow: hidden;
+        padding:1rem;
+        transition: all ease 0.1s;
+    }
+}
+.product_container:hover{
+    transform: scale(1.05);
+}
+.image_product_container{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.image_product_container img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.detail_container{
+    width: 100%;
+    height:40%;
+    padding:1rem 0;
+}
+.name_container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    overflow: hidden;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.price_sold_container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.button_container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_container button{
+    width: 60%;
+    height:80%;
+    cursor: pointer;
+    background-color: green;
+    color:white;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    transition: all ease 0.1s;
+}
+.button_link{
+    width:50%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button_edit{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+    color:white;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+}
+.button_container button:hover{
+    transform: scale(1.05);
+}
+.button_admin{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_admin button{
+    width: 50%;
+    height:80%;
+    cursor: pointer;
+    background-color: green;
+    color:white;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    transition: all ease 0.1s;
+}
+.button_admin button:hover{
+    transform: scale(1.05);
+}
+.create_product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.delete_container{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete_confir{
+    width: 50%;
+    padding:4rem;
+    padding-bottom: 3rem;
+    background-color: white;
+    border-radius: 8rem;
+}
+.title_confir{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+.btn_confir{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    padding:0 5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+.btn_confir button{
+    width: 20%;
+    height: 3rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.btn_confir button:hover{
+    transform: scale(1.05);
+}

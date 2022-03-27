@@ -1,0 +1,82 @@
+.login_register_form{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.login_register_form-container{
+    width: 70%;
+    border-radius: 5rem;
+    padding:1rem 5rem;
+    box-shadow: 0 0 1rem 0.5rem #333;
+}
+.login_head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+.form_input{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    margin:4rem 0;
+}
+.form_input input{
+    width: 80%;
+    height: 100%;
+    border-radius: 5rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    outline-style: none;
+}
+.btn_input{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.btn_input button{
+    width: 40%;
+    height: 80%;
+    background-color: green;
+    color:white;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all ease 0.1s;
+}
+.btn_input button:hover{
+    transform: scale(1.05);
+}
+.google_facebook{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+}
+.forgot_password{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    color:red;
+    cursor: pointer;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.google_login{
+    width: 100%;
+}
+.google{
+    padding-left: 5rem;
+    width: 40rem;
+}

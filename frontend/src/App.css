@@ -1,0 +1,21 @@
+.App{
+    display: grid;
+    width:100%;
+    min-height: 100vh;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 10rem 1fr 10rem;
+}
+header{
+    grid-area: "header";
+    background-image: linear-gradient(0,#FF7F50,#FFA500);
+}
+main{
+    grid-area: "main";
+}
+footer{
+    grid-area: "footer";
+}
